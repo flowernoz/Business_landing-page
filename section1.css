@@ -1,0 +1,79 @@
+.section1 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 160px 112px 192px 156px;
+    gap: 93px;
+    background-color: black;
+}
+
+.left {
+    width: 571px;
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+
+}
+
+.left>p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 66px;
+    line-height: 147.52%;
+    /* or 97px */
+
+
+    /* Pure White */
+
+    color: #FFFFFF;
+}
+
+.left>span {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 162.52%;
+    color: #FFFFFF;
+    opacity: 0.3;
+}
+
+.email {
+    width: 438px;
+    height: 74px;
+    left: 154px;
+    top: 615px;
+    background-color: #262626;
+    border-radius: 43px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 7px;
+}
+
+.email>input {
+    width: 90%;
+    height: 100%;
+    padding-left: 30px;
+    border-radius: 43px;
+    outline: none;
+    border: none;
+    background: none;
+
+}
+
+::placeholder {
+    color: #fff;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    background: none;
+}
+
+.email>button {
+    width: 137px;
+    height: 62px;
+    background: #E3B748;
+    border-radius: 43px;
+    color: black;
+    border: none;
+}
